@@ -1,0 +1,142 @@
+body{
+  margin: 0;
+  padding: 0;
+  height: 80vh;
+  background:rgba(0, 0, 0, 0.905);
+  color:red;
+}
+
+
+
+.my-skills{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 70px;
+}
+
+h1{
+  margin-bottom: 0px;
+  font-size: 40px;
+}
+
+pre{
+  margin-bottom: 0;
+  color:rgba(255, 0, 0, 0.57);
+}
+
+
+
+
+
+
+
+
+
+.container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80%;
+
+}
+
+
+
+
+
+
+
+
+
+.skills{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  height: 80%;
+}
+
+.bart1{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding-bottom: 30px;
+}
+
+.hat{
+  width: 90%;
+  height: 13px;
+  background: rgb(235, 235, 235);
+  border-radius: 10px;
+  
+
+}
+
+
+
+
+
+
+
+.reng{
+  background: red;
+  border-radius: 10px;
+}
+
+
+#h{
+  width: 90%;
+  height: 13px;
+}
+
+#c{
+  width: 80%;
+  height: 13px;
+}
+
+#j{
+  width: 50%;
+  height: 13px;
+}
+
+#git{
+  width: 70%;
+  height: 13px;
+}
+
+#github{
+  width: 80%;
+  height: 13px;
+}
+
+#b{
+  width: 75%;
+  height: 13px;
+}
+
+
+
+
+
+
+
+.text{
+  
+  width: 88%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+.text h2{
+  font-size: 20px;
+
+  margin-bottom: 5px;
+}
+p{
+
+  margin-bottom: 5px;
+}

@@ -1,0 +1,55 @@
+body{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+}
+
+
+h2{
+    padding: 30px;
+    text-align: center;
+    margin: 10px;
+}
+
+
+
+
+.row{
+    width: 100%;
+    gap: 40px;
+    display: flex;
+    justify-content: center;
+}
+
+img{
+    width: 90px;
+    border-radius: 50%;
+}
+
+.col{
+    width: 20%;
+    text-align: center;
+    padding: 20px;
+    background-color: rgb(246, 243, 239);
+    border-radius: 0;
+    box-shadow:0 4px 10px 0 rgba(0, 0, 0, 0.2), 0 -4px 15px 0 rgba(0, 0, 0, 0.19);
+    transition: all 0.3s;
+}
+
+.col:hover{
+    transform:scale(0.9) ;
+}
+
+
+
+@media screen and (max-width: 750px) {
+    .row{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .col{
+        width: 45%;
+    }
+}
